@@ -1,8 +1,8 @@
 const co = require('co');
 
 const colToHex = color => {
-  let hex = color.toString(16);
-  return hex.length == 1 ? '0' + hex : hex;
+  const hex = color.toString(16);
+  return hex.length === 1 ? '0' + hex : hex;
 };
 
 const rgbToHex = (r, g, b) => '#' + colToHex(r) + colToHex(g) + colToHex(b);

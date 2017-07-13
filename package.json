@@ -1,6 +1,6 @@
 {
   "name": "background-color-changer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Changes the background color of a given element in a random fashion",
   "main": "index.js",
   "scripts": {
